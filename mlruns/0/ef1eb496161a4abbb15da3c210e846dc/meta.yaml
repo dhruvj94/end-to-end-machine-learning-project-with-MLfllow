@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/2025/end-to-end-machine-learning-project-with-MLfllow/mlruns/0/ef1eb496161a4abbb15da3c210e846dc/artifacts
+end_time: 1741440970304
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ef1eb496161a4abbb15da3c210e846dc
+run_name: lyrical-koi-542
+run_uuid: ef1eb496161a4abbb15da3c210e846dc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741440919681
+status: 3
+tags: []
+user_id: Dhruv
