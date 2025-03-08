@@ -5,7 +5,7 @@ from pathlib import Path
 @dataclass(frozen=True)
 class DataIngestionConfig:
     root_dir: Path
-    sorce_URL: str
+    source_URL: str
     local_data_file: Path
     unzip_dir: Path
 
@@ -15,7 +15,6 @@ class DataIngestionConfig:
 class DataValidationConfig:
     root_dir: Path
     STATUS_FILE: str
-    STATUS_FILE_2: str
     unzip_data_dir: Path
     all_schema: dict
 
@@ -27,7 +26,7 @@ class DataTransformationConfig:
     data_path: Path
 
 
-    
+
 @dataclass(frozen=True)
 class ModelTrainerConfig:
     root_dir: Path
@@ -37,6 +36,7 @@ class ModelTrainerConfig:
     alpha: float
     l1_ratio: float
     target_column: str
+
 
 
 

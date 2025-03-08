@@ -1,9 +1,11 @@
 import pandas as pd
 import os
-from mlproject import logger
+from mlProject import logger
 from sklearn.linear_model import ElasticNet
 import joblib
-from mlproject.entity.config_entity import ModelTrainerConfig
+from mlProject.entity.config_entity import ModelTrainerConfig
+
+
 
 class ModelTrainer:
     def __init__(self, config: ModelTrainerConfig):
