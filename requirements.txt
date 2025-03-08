@@ -12,4 +12,5 @@ joblib
 types-PyYAML
 flask
 flask-cors
+dagshub
 -e .

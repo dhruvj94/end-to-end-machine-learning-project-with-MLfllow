@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/2025/end-to-end-machine-learning-project-with-MLfllow/mlruns/0/2d87eda1cf444518a157636d12732400/artifacts
+end_time: 1740915793841
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 2d87eda1cf444518a157636d12732400
+run_name: sassy-lamb-733
+run_uuid: 2d87eda1cf444518a157636d12732400
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740915758018
+status: 3
+tags: []
+user_id: Dhruv
