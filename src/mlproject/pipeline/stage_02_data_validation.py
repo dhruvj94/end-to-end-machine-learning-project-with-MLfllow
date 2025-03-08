@@ -1,6 +1,6 @@
-from mlProject.config.configuration import ConfigurationManager
-from mlProject.components.data_validation import DataValiadtion
-from mlProject import logger
+from mlproject.config.configuration import ConfigurationManager
+from mlproject.components.data_validation import DataValiadtion
+from mlproject import logger
 
 
 STAGE_NAME = "Data Validation stage"

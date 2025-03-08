@@ -1,6 +1,6 @@
-from mlProject.constants import *
-from mlProject.utils.common import read_yaml, create_directories
-from mlProject.entity.config_entity import (DataIngestionConfig,
+from mlproject.constants import *
+from mlproject.utils.common import read_yaml, create_directories
+from mlproject.entity.config_entity import (DataIngestionConfig,
                                             DataValidationConfig,
                                             DataTransformationConfig,
                                             ModelTrainerConfig,
@@ -103,7 +103,7 @@ class ConfigurationManager:
             all_params=params,
             metric_file_name = config.metric_file_name,
             target_column = schema.name,
-            mlflow_uri="https://dagshub.com/entbappy/End-to-end-Machine-Learning-Project-with-MLflow.mlflow",
+            mlflow_uri="https://dagshub.com/dhruvj94/end-to-end-machine-learning-project-with-MLfllow.mlflow",
            
         )
 
